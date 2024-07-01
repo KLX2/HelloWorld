@@ -18,7 +18,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::FontOptions (32.0f));
     g.setColour (juce::Colours::lightsalmon);
-    g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("Hello World!", getLocalBounds(), juce::Justification::topLeft, true);
 }
 
 void MainComponent::resized()
